@@ -17,7 +17,7 @@ public class Main {
 		consumidor1.subscribe(atacadista);
 		consumidor2.subscribe(atacadista);
 
-		// ESPERAR 2 SEGUNDOS
+		// ESPERAR 1 SEGUNDO
 		Thread.sleep(1000);
 
 		// NOTIFICAR CONSUMIDORES
